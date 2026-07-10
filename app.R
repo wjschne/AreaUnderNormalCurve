@@ -550,7 +550,7 @@ server <- function(input, output) {
           a = min(lb, ub),
           b = max(lb, ub),
           mean = input$mu,
-          sd = input$sigma
+          sd = sigmae
         )
       )
 
